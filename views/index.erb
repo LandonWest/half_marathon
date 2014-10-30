@@ -1,3 +1,38 @@
 <h1>Bears in Pursuit!</h1>
 <h2>half marathon</h2>
 <p>-2014-</p>
+
+<!-- <div class="clock"></div>
+
+<script type="text/javascript">
+	var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+		clockFace: 'DailyCounter',
+		countdown: true
+	});
+</script> -->
+
+<div class="clock" style="margin:2em;"></div>
+<div class="message"></div>
+
+<script type="text/javascript">
+  var clock;
+
+  $(document).ready(function() {
+    var clock;
+
+    clock = $('.clock').FlipClock({
+          clockFace: 'DailyCounter',
+          autoStart: false,
+          callbacks: {
+            stop: function() {
+              $('.message').html('Race Time!')
+            }
+          }
+      });
+
+      clock.setTime(220880);
+      clock.setCountdown(true);
+      clock.start();
+
+  });
+</script>
