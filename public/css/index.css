@@ -6,3 +6,57 @@ h1, h2, p {
   margin-left: auto;
   margin-right: auto;
 }
+#trail-button {
+  width: 130px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#landon-cir {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	background: url(https://media.licdn.com/mpr/mpr/shrink_120_120/p/3/000/279/0bd/07f66b4.jpg) no-repeat;
+}
+#mel-cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(https://media.licdn.com/mpr/mpr/shrink_120_120/p/5/005/08e/1f1/3a250f7.jpg) no-repeat;
+}
+#sara-cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(http://graph.facebook.com/651481452/picture?width=200&height=200) no-repeat;
+}
+#scott-cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(http://manlycurls.com/blog_new/wp-content/uploads/2011/06/justin-225x300.jpg) no-repeat;
+}
+#mike-cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(https://media.licdn.com/media/p/6/005/084/119/00112c9.jpg) no-repeat;
+}
+#annie-cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(http://images4.fanpop.com/image/photos/19400000/Hermione-hermione-granger-19484641-100-100.jpg) no-repeat;
+}
