@@ -13,16 +13,14 @@ $(document).ready(function() {
         }
     });
 
-    clock.setTime(220880);
+    clock.setTime(4122300);
     clock.setCountdown(true);
     clock.start();
 
 });
 
 
-// <script type="text/javascript">
-//   var clock = $('.clock').FlipClock(3600 * 24 * 3, {
-//     clockFace: 'DailyCounter',
-//     countdown: true
-//   });
-// </script>
+// var clock = $('.clock').FlipClock(3600 * 24 * 47, {
+//   clockFace: 'DailyCounter',
+//   countdown: true
+// });
